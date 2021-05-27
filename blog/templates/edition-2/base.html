@@ -17,7 +17,7 @@
 
     <link rel="alternate" type="application/rss+xml" title="RSS feed for os.phil-opp.com" href="{{ config.base_url | safe }}/rss.xml" />
 
-    <script async src="/js/edition-2/main.js"></script>
+    <script async src="/blog/js/edition-2/main.js"></script>
 
     <title>{% block title %}{% endblock title %}</title>
 </head>
@@ -60,7 +60,7 @@
             m=f.getElementsByTagName('script')[0];
             o.async=1; o.src=t; o.id='fathom-script';
             m.parentNode.insertBefore(o,m)
-        })(document, window, '//fathom.phil-opp.com/tracker.js', 'fathom');
+        })(document, window, '/tracker.js', 'fathom');
         fathom('set', 'siteId', 'MUXWM');
         fathom('trackPageview');
     </script>
