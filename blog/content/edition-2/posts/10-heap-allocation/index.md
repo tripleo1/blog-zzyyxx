@@ -572,7 +572,7 @@ We use the [`lock`] method on the inner spinlock of the `LockedHeap` type to get
 
 [`lock`]: https://docs.rs/lock_api/0.3.3/lock_api/struct.Mutex.html#method.lock
 [`Heap`]: https://docs.rs/linked_list_allocator/0.9.0/linked_list_allocator/struct.Heap.html
-[`init`]: https://docs.rs/linked_list_allocator/0.9.0/linked_list_allocator/struct.Heap.html#method.init
+[`init`]: https://docs.rs/linked_list_allocator/0.9.0/linked_list_allocator/struct.Heap.html
 
 After initializing the heap, we can now use all allocation and collection types of the built-in [`alloc`] crate without error:
 
