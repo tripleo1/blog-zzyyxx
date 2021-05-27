@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}{{ section.title }} | {{ config.title }}{% endblock title %}
+
+{% block main %}
+
+<h1>{{ section.title }}</h1>
+
+{% block introduction %}{% endblock introduction %}
+
+<div class="posts neutral">
+    {% for page in section.pages %}
+        <div>
+            <h2 class="post-title"><a href="{{ page.path | safe }}">{{ page.title }}</a></h2>
+            <time datetime="{{ page.date | date(format="%Y-%m-%d") }}" class="post-date" style="margin-bottom: 0.5rem;">
+                    {{ page.date | date(format="%b %d, %Y") }}
+            </time>
+            <div class="post-summary" style="margin-bottom: 2rem;">
+                {{ page.summary | safe}}
+                <a class="read-more" href="{{ page.path | safe }}">read more…</a>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+
+{% endblock main %}

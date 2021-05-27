@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}{{ section.title }} | {{ config.title }}{% endblock title %}
+
+{% block main %}
+
+<h1>{{ section.title }}</h1>
+
+{% block introduction %}
+<p>{{ section.description }}</p>
+{% endblock introduction %}
+
+<div class="status-update-list"><ul>
+    {% include "auto/status-updates.html" %}
+    {% for page in section.pages %}
+        <li><b><a href="{{ page.path | safe }}">{{ page.title }}</a></b></li>
+    {% endfor %}
+</ul></div>
+
+{% endblock main %}

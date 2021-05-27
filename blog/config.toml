@@ -1,0 +1,99 @@
+title = "Writing an OS in Rust"
+base_url = "https://os.phil-opp.com"
+description = "This blog series creates a small operating system in the Rust programming language. Each post is a small tutorial and includes all needed code."
+
+highlight_code = true
+highlight_theme = "visual-studio-dark"
+generate_feed = true
+feed_filename = "rss.xml"
+
+languages = [
+    { code = "zh-CN" }, # Chinese (simplified)
+    { code = "zh-TW" }, # Chinese (traditional)
+    { code = "ja" }, # Japanese
+    { code = "fa" }, # Persian
+]
+
+ignored_content = ["*/README.md"]
+
+[link_checker]
+skip_prefixes = [
+    "https://crates.io/crates", # see https://github.com/rust-lang/crates.io/issues/788
+    "https://www.amd.com/system/files/TechDocs/", # seems to have problems with PDFs
+    "https://developer.apple.com/library/archive/qa/qa1118/_index.html", # results in a 401 (I don't know why)
+    "https://github.com", # rate limiting often leads to "Error 429 Too Many Requests"
+    "https://www.linkedin.com/", # seems to send invalid HTTP status codes
+]
+skip_anchor_prefixes = [
+     "https://github.com/", # see https://github.com/getzola/zola/issues/805
+     "https://docs.rs/x86_64/0.1.2/src/", # source code highlight
+]
+
+[extra]
+subtitle = "Philipp Oppermann's blog"
+author = { name = "Philipp Oppermann" }
+
+[translations.en]
+lang_name = "English"
+toc = "Table of Contents"
+all_posts = "« All Posts"
+comments = "Comments"
+comments_notice = "Please leave your comments in English if possible."
+readmore = "read&nbsp;more&nbsp;»"
+not_translated = "(This post is not translated yet.)"
+translated_content = "Translated Content:"
+translated_content_notice = "This is a community translation of the <strong><a href=\"_original.permalink_\">_original.title_</a></strong> post. It might be incomplete, outdated or contain errors. Please report any issues!"
+translated_by = "Translation by"
+word_separator = "and"
+
+[translations.zh-CN]
+lang_name = "Chinese (simplified)"
+toc = "目录"
+all_posts = "« 所有文章"
+comments = "评论"
+comments_notice = "请尽可能使用英语评论。"
+readmore = "更多 »"
+not_translated = "（该文章还没有被翻译。）"
+translated_content = "翻译内容："
+translated_content_notice = "这是对原文章 <strong><a href=\"_original.permalink_\">_original.title_</a></strong> 的社区中文翻译。它可能不完整，过时或者包含错误。可以在 <a href=\"https://github.com/phil-opp/blog_os/issues/961\">这个 Issue</a> 上评论和提问！"
+translated_by = "翻译者："
+word_separator = "和"
+
+[translations.zh-TW]
+lang_name = "Chinese (traditional)"
+toc = "目錄"
+all_posts = "« 所有文章"
+comments = "評論"
+comments_notice = "請儘可能使用英語評論。"
+readmore = "更多 »"
+not_translated = "（該文章還沒有被翻譯。）"
+translated_content = "翻譯內容："
+translated_content_notice = "這是對原文章 <strong><a href=\"_original.permalink_\">_original.title_</a></strong> 的社區中文翻譯。它可能不完整，過時或者包含錯誤。可以在 <a href=\"https://github.com/phil-opp/blog_os/issues/961\">這個 Issue</a> 上評論和提問！"
+translated_by = "翻譯者："
+word_separator = "和"
+
+[translations.ja]
+lang_name = "Japanese"
+toc = "目次"
+all_posts = "« すべての記事へ"
+comments = "コメント"
+comments_notice = "可能な限りコメントは英語で残すようにしてください。"
+readmore = "もっと読む »"
+not_translated = "（この記事はまだ翻訳されていません。）"
+translated_content = "この記事は翻訳されたものです："
+translated_content_notice = "この記事は<strong><a href=\"_original.permalink_\">_original.title_</a></strong>をコミュニティの手により翻訳したものです。そのため、翻訳が完全・最新でなかったり、原文にない誤りを含んでいる可能性があります。問題があれば<a href=\"https://github.com/phil-opp/blog_os/issues/906\">このissue</a>上で報告してください！"
+translated_by = "翻訳者："
+word_separator = "及び"
+
+[translations.fa]
+lang_name = "Persian"
+toc = "فهرست مطالب"
+all_posts = "« همه پست‌ها"
+comments = "نظرات"
+comments_notice = "لطفا نظرات خود را در صورت امکان به انگلیسی بنویسید."
+readmore = "ادامه‌مطلب»"
+not_translated = "(.این پست هنوز ترجمه نشده است)"
+translated_content = "محتوای ترجمه شده:"
+translated_content_notice = "این یک ترجمه از جامعه کاربران برای پست <strong><a href=\"_original.permalink_\">_original.title_</a></strong> است. ممکن است ناقص، منسوخ شده یا دارای خطا باشد. لطفا هر گونه مشکل را در <a href=\"https://github.com/phil-opp/blog_os/issues/908\">این ایشو</a> گزارش دهید!"
+translated_by = "ترجمه توسط"
+word_separator = "و"
