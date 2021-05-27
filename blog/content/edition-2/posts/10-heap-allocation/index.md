@@ -548,7 +548,7 @@ The struct is named `LockedHeap` because it uses the [`spinning_top::Spinlock`] 
 
 Setting the `LockedHeap` as global allocator is not enough. The reason is that we use the [`empty`] constructor function, which creates an allocator without any backing memory. Like our dummy allocator, it always returns an error on `alloc`. To fix this, we need to initialize the allocator after creating the heap:
 
-[`empty`]: https://docs.rs/linked_list_allocator/0.9.0/linked_list_allocator/struct.LockedHeap.html#method.empty
+[`empty`]: https://docs.rs/linked_list_allocator/0.9.0/linked_list_allocator/struct.LockedHeap.html
 
 ```rust
 // in src/allocator.rs
