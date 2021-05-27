@@ -13,3 +13,4 @@ jobs:
         BUILD_DIR: blog
         BUILD_FLAGS: --drafts
         TOKEN: ${{ secrets.TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
