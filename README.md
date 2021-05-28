@@ -10,7 +10,7 @@ The code for each post lives in a separate git branch. This makes it possible to
 
 **The code for the latest post is available [here][latest-post].**
 
-[latest-post]: https://github.com/phil-opp/blog_os/tree/post-12
+[latest-post]: https://tripleo1.github.io/blog/tree/post-12
 
 You can find the branch for each post by following the `(source code)` link in the [post list](#posts) below. The branches are named `post-XX` where `XX` is the post number, for example `post-03` for the _VGA Text Mode_ post or `post-07` for the _Hardware Interrupts_ post. For build instructions, see the Readme of the respective branch.
 
@@ -31,38 +31,38 @@ The goal of this project is to provide step-by-step tutorials in individual blog
 **Bare Bones:**
 
 - [A Freestanding Rust Binary](https://tripleo1.github.io/blog/freestanding-rust-binary/)
-    ([source code](https://github.com/phil-opp/blog_os/tree/post-01))
+    ([source code](https://tripleo1.github.io/blog/tree/post-01))
 - [A Minimal Rust Kernel](https://tripleo1.github.io/blog/minimal-rust-kernel/)
-    ([source code](https://github.com/phil-opp/blog_os/tree/post-02))
+    ([source code](https://tripleo1.github.io/blog/tree/post-02))
 - [VGA Text Mode](https://tripleo1.github.io/blog/vga-text-mode/)
-    ([source code](https://github.com/phil-opp/blog_os/tree/post-03))
+    ([source code](https://tripleo1.github.io/blog/tree/post-03))
 - [Testing](https://tripleo1.github.io/blog/testing/)
-    ([source code](https://github.com/phil-opp/blog_os/tree/post-04))
+    ([source code](https://tripleo1.github.io/blog/tree/post-04))
 
 **Interrupts:**
 
 - [CPU Exceptions](https://tripleo1.github.io/blog/cpu-exceptions/)
-    ([source code](https://github.com/phil-opp/blog_os/tree/post-05))
+    ([source code](https://tripleo1.github.io/blog/tree/post-05))
 - [Double Faults](https://tripleo1.github.io/blog/double-fault-exceptions/)
-    ([source code](https://github.com/phil-opp/blog_os/tree/post-06))
+    ([source code](https://tripleo1.github.io/blog/tree/post-06))
 - [Hardware Interrupts](https://tripleo1.github.io/blog/hardware-interrupts/)
-    ([source code](https://github.com/phil-opp/blog_os/tree/post-07))
+    ([source code](https://tripleo1.github.io/blog/tree/post-07))
 
 **Memory Management:**
 
 - [Introduction to Paging](https://tripleo1.github.io/blog/paging-introduction/)
-    ([source code](https://github.com/phil-opp/blog_os/tree/post-08))
+    ([source code](https://tripleo1.github.io/blog/tree/post-08))
 - [Paging Implementation](https://tripleo1.github.io/blog/paging-implementation/)
-    ([source code](https://github.com/phil-opp/blog_os/tree/post-09))
+    ([source code](https://tripleo1.github.io/blog/tree/post-09))
 - [Heap Allocation](https://tripleo1.github.io/blog/heap-allocation/)
-    ([source code](https://github.com/phil-opp/blog_os/tree/post-10))
+    ([source code](https://tripleo1.github.io/blog/tree/post-10))
 - [Allocator Designs](https://tripleo1.github.io/blog/allocator-designs/)
-    ([source code](https://github.com/phil-opp/blog_os/tree/post-11))
+    ([source code](https://tripleo1.github.io/blog/tree/post-11))
 
 **Multitasking**:
 
 - [Async/Await](https://tripleo1.github.io/blog/async-await/)
-    ([source code](https://github.com/phil-opp/blog_os/tree/post-12))
+    ([source code](https://tripleo1.github.io/blog/tree/post-12))
 
 ## First Edition Posts
 
@@ -73,31 +73,31 @@ The current version of the blog is already the second edition. The first edition
 **Bare Bones:**
 
 - [A Minimal x86 Kernel](https://tripleo1.github.io/blog/multiboot-kernel.html)
-      ([source code](https://github.com/phil-opp/blog_os/tree/first_edition_post_1))
+      ([source code](https://tripleo1.github.io/blog/tree/first_edition_post_1))
 - [Entering Long Mode](https://tripleo1.github.io/blog/entering-longmode.html)
-      ([source code](https://github.com/phil-opp/blog_os/tree/first_edition_post_2))
+      ([source code](https://tripleo1.github.io/blog/tree/first_edition_post_2))
 - [Set Up Rust](https://tripleo1.github.io/blog/set-up-rust.html)
-      ([source code](https://github.com/phil-opp/blog_os/tree/first_edition_post_3))
+      ([source code](https://tripleo1.github.io/blog/tree/first_edition_post_3))
 - [Printing to Screen](https://tripleo1.github.io/blog/printing-to-screen.html)
-      ([source code](https://github.com/phil-opp/blog_os/tree/first_edition_post_4))
+      ([source code](https://tripleo1.github.io/blog/tree/first_edition_post_4))
 
 **Memory Management:**
 
 - [Allocating Frames](https://tripleo1.github.io/blog/allocating-frames.html)
-      ([source code](https://github.com/phil-opp/blog_os/tree/first_edition_post_5))
+      ([source code](https://tripleo1.github.io/blog/tree/first_edition_post_5))
 - [Page Tables](https://tripleo1.github.io/blog/modifying-page-tables.html)
-      ([source code](https://github.com/phil-opp/blog_os/tree/first_edition_post_6))
+      ([source code](https://tripleo1.github.io/blog/tree/first_edition_post_6))
 - [Remap the Kernel](https://tripleo1.github.io/blog/remap-the-kernel.html)
-      ([source code](https://github.com/phil-opp/blog_os/tree/first_edition_post_7))
+      ([source code](https://tripleo1.github.io/blog/tree/first_edition_post_7))
 - [Kernel Heap](https://tripleo1.github.io/blog/kernel-heap.html)
-      ([source code](https://github.com/phil-opp/blog_os/tree/first_edition_post_8))
+      ([source code](https://tripleo1.github.io/blog/tree/first_edition_post_8))
 
 **Exceptions:**
 
 - [Handling Exceptions](https://tripleo1.github.io/blog/handling-exceptions.html)
-      ([source code](https://github.com/phil-opp/blog_os/tree/first_edition_post_9))
+      ([source code](https://tripleo1.github.io/blog/tree/first_edition_post_9))
 - [Double Faults](https://tripleo1.github.io/blog/double-faults.html)
-      ([source code](https://github.com/phil-opp/blog_os/tree/first_edition_post_10))
+      ([source code](https://tripleo1.github.io/blog/tree/first_edition_post_10))
 
 **Additional Resources:**
 
@@ -106,11 +106,11 @@ The current version of the blog is already the second edition. The first edition
 - [Set Up GDB](https://tripleo1.github.io/blog/set-up-gdb)
 - [Handling Exceptions using Naked Functions](https://tripleo1.github.io/blog/handling-exceptions-with-naked-fns.html)
     - [Catching Exceptions](https://tripleo1.github.io/blog/catching-exceptions.html)
-          ([source code](https://github.com/phil-opp/blog_os/tree/catching_exceptions))
+          ([source code](https://tripleo1.github.io/blog/tree/catching_exceptions))
     - [Better Exception Messages](https://tripleo1.github.io/blog/better-exception-messages.html)
-          ([source code](https://github.com/phil-opp/blog_os/tree/better_exception_messages))
+          ([source code](https://tripleo1.github.io/blog/tree/better_exception_messages))
     - [Returning from Exceptions](https://tripleo1.github.io/blog/returning-from-exceptions.html)
-          ([source code](https://github.com/phil-opp/blog_os/tree/returning_from_exceptions))
+          ([source code](https://tripleo1.github.io/blog/tree/returning_from_exceptions))
 
 </details>
 

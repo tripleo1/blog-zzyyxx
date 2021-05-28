@@ -19,8 +19,8 @@ In the previous posts we created a [frame allocator] and a [page table module]. 
 
 As always, you can find the complete source code on [GitHub]. Please file [issues] for any problems, questions, or improvement suggestions. There is also a comment section at the end of this page.
 
-[GitHub]: https://github.com/phil-opp/blog_os/tree/first_edition_post_8
-[issues]: https://github.com/phil-opp/blog_os/issues
+[GitHub]: https://tripleo1.github.io/blog/tree/first_edition_post_8
+[issues]: https://tripleo1.github.io/blog/issues
 
 ## Introduction
 The _heap_ is the memory area for long-lived allocations. The programmer can access it by using types like [Box][Box rustbyexample] or [Vec]. Behind the scenes, the compiler manages that memory by inserting calls to some memory allocator. By default, Rust links to the [jemalloc] allocator (for binaries) or the system allocator (for libraries). However, both rely on [system calls] such as [sbrk] and are thus unusable in our kernel. So we need to create and link our own allocator.

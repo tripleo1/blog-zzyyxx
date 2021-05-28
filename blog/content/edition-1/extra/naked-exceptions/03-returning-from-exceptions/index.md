@@ -15,8 +15,8 @@ In this post, we learn how to return from exceptions correctly. In the course of
 
 As always, the complete source code is on [GitHub]. Please file [issues] for any problems, questions, or improvement suggestions. There is also a [gitter chat] and a comment section at the end of this page.
 
-[GitHub]: https://github.com/phil-opp/blog_os/tree/returning_from_exceptions
-[issues]: https://github.com/phil-opp/blog_os/issues
+[GitHub]: https://tripleo1.github.io/blog/tree/returning_from_exceptions
+[issues]: https://tripleo1.github.io/blog/issues
 [gitter chat]: https://gitter.im/phil-opp/blog_os
 
 > **Note**: This post describes how to handle exceptions using naked functions (see [“Handling Exceptions with Naked Functions”] for an overview). Our new way of handling exceptions can be found in the [“Handling Exceptions”] post.

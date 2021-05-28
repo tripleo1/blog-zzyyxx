@@ -19,9 +19,9 @@ translators = ["luojia65", "Rustin-Liu", "TheBegining"]
 
 此博客在 [GitHub] 上公开开发. 如果您有任何问题或疑问，请在此处打开一个 issue。 您也可以在[底部][at the bottom]发表评论. 这篇文章的完整源代码可以在 [`post-01`] [post branch] 分支中找到。
 
-[GitHub]: https://github.com/phil-opp/blog_os
+[GitHub]: https://tripleo1.github.io/blog
 [at the bottom]: #comments
-[post branch]: https://github.com/phil-opp/blog_os/tree/post-01
+[post branch]: https://tripleo1.github.io/blog/tree/post-01
 
 <!-- toc -->
 

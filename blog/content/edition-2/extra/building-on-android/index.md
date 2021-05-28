@@ -58,7 +58,7 @@ We need something to compile, so let's download the `blog_os` repository:
 
 - Clone the `blog_os` repository:
     ```
-    git clone https://github.com/phil-opp/blog_os.git
+    git clone https://tripleo1.github.io/blog.git
     ```
 
 If you want to clone/push via SSH, you need to install the `openssh` package: `pkg install openssh`.

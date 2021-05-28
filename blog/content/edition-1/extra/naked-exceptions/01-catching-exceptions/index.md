@@ -15,8 +15,8 @@ In this post, we start exploring exceptions. We set up an interrupt descriptor t
 
 As always, the complete source code is on [GitHub]. Please file [issues] for any problems, questions, or improvement suggestions. There is also a comment section at the end of this page.
 
-[GitHub]: https://github.com/phil-opp/blog_os/tree/catching_exceptions
-[issues]: https://github.com/phil-opp/blog_os/issues
+[GitHub]: https://tripleo1.github.io/blog/tree/catching_exceptions
+[issues]: https://tripleo1.github.io/blog/issues
 
 > **Note**: This post describes how to handle exceptions using naked functions (see [“Handling Exceptions with Naked Functions”] for an overview). Our new way of handling exceptions can be found in the [“Handling Exceptions”] post.
 

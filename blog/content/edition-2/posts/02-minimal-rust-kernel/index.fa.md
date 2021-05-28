@@ -21,9 +21,9 @@ rtl = true
 
 این بلاگ بصورت آزاد روی [گیت‌هاب] توسعه داده شده است. اگر شما مشکل یا سوالی دارید، لطفاً آن‌جا یک ایشو باز کنید. شما همچنین می‌توانید [در زیر] این پست کامنت بگذارید. منبع کد کامل این پست را می‌توانید در بِرَنچ [`post-02`][post branch] پیدا کنید.
 
-[گیت‌هاب]: https://github.com/phil-opp/blog_os
+[گیت‌هاب]: https://tripleo1.github.io/blog
 [در زیر]: #comments
-[post branch]: https://github.com/phil-opp/blog_os/tree/post-02
+[post branch]: https://tripleo1.github.io/blog/tree/post-02
 
 <!-- toc -->
 
@@ -38,7 +38,7 @@ rtl = true
 [BIOS]: https://en.wikipedia.org/wiki/BIOS
 [UEFI]: https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface
 
-در حال حاضر، ما فقط پشتیبانی BIOS را ارائه می‌دهیم، اما پشتیبانی از UEFI نیز برنامه‌ریزی شده است. اگر می‌خواهید در این زمینه به ما کمک کنید، [ایشو گیت‌هاب](https://github.com/phil-opp/blog_os/issues/349) را بررسی کنید.
+در حال حاضر، ما فقط پشتیبانی BIOS را ارائه می‌دهیم، اما پشتیبانی از UEFI نیز برنامه‌ریزی شده است. اگر می‌خواهید در این زمینه به ما کمک کنید، [ایشو گیت‌هاب](https://tripleo1.github.io/blog/issues/349) را بررسی کنید.
 
 ### بوت شدن BIOS
 
@@ -87,7 +87,7 @@ rtl = true
 
 ### UEFI
 
-(ما در حال حاضر پشتیبانی UEFI را ارائه نمی‌دهیم، اما خیلی دوست داریم این کار را انجام دهیم! اگر می‌خواهید کمک کنید، لطفاً در [ایشو گیت‌هاب](https://github.com/phil-opp/blog_os/issues/349) به ما بگویید.)
+(ما در حال حاضر پشتیبانی UEFI را ارائه نمی‌دهیم، اما خیلی دوست داریم این کار را انجام دهیم! اگر می‌خواهید کمک کنید، لطفاً در [ایشو گیت‌هاب](https://tripleo1.github.io/blog/issues/349) به ما بگویید.)
 
 ## یک هسته مینیمال
 

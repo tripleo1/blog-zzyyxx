@@ -17,9 +17,9 @@ translators = ["luojia65", "Rustin-Liu"]
 
 这个系列的blog在[GitHub]上开放开发，如果你有任何问题，请在这里开一个issue来讨论。当然你也可以在[底部]留言。你可以在[这里][post branch]找到这篇文章的完整源码。
 
-[GitHub]: https://github.com/phil-opp/blog_os
+[GitHub]: https://tripleo1.github.io/blog
 [at the bottom]: #comments
-[post branch]: https://github.com/phil-opp/blog_os/tree/post-04
+[post branch]: https://tripleo1.github.io/blog/tree/post-04
 
 <!-- toc -->
 

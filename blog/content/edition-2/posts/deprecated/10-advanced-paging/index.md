@@ -6,7 +6,7 @@ date = 2019-01-28
 
 [extra]
 warning_short = "Deprecated: "
-warning = "This post is deprecated in favor of the [_Paging Implementation_](/paging-implementation) post and will no longer receive updates. See issue [#545](https://github.com/phil-opp/blog_os/issues/545) for reasons for this deprecation."
+warning = "This post is deprecated in favor of the [_Paging Implementation_](/paging-implementation) post and will no longer receive updates. See issue [#545](https://tripleo1.github.io/blog/issues/545) for reasons for this deprecation."
 +++
 
 This post explains techniques to make the physical page table frames accessible to our kernel. It then uses such a technique to implement a function that translates virtual to physical addresses. It also explains how to create new mappings in the page tables.
@@ -15,9 +15,9 @@ This post explains techniques to make the physical page table frames accessible 
 
 This blog is openly developed on [GitHub]. If you have any problems or questions, please open an issue there. You can also leave comments [at the bottom]. The complete source code for this post can be found [here][post branch].
 
-[GitHub]: https://github.com/phil-opp/blog_os
+[GitHub]: https://tripleo1.github.io/blog
 [at the bottom]: #comments
-[post branch]: https://github.com/phil-opp/blog_os/tree/5c0fb63f33380fc8596d7166c2ebde03ef3d6726
+[post branch]: https://tripleo1.github.io/blog/tree/5c0fb63f33380fc8596d7166c2ebde03ef3d6726
 
 ## Introduction
 

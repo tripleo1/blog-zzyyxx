@@ -19,9 +19,9 @@ translators = ["wusyong"]
 
 此網誌在 [GitHub] 上公開開發，如果您有任何問題或疑問，請在那開一個 issue，您也可以在[下面][at the bottom]發表評論，這篇文章的完整開源程式碼可以在 [`post-01`][post branch] 分支中找到。
 
-[GitHub]: https://github.com/phil-opp/blog_os
+[GitHub]: https://tripleo1.github.io/blog
 [at the bottom]: #comments
-[post branch]: https://github.com/phil-opp/blog_os/tree/post-01
+[post branch]: https://tripleo1.github.io/blog/tree/post-01
 
 <!-- toc -->
 

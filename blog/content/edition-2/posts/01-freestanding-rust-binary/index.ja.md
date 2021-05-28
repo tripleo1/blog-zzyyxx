@@ -20,9 +20,9 @@ translators = ["JohnTitor"]
 
 このブログの内容は [GitHub] 上で公開・開発されています。何か問題や質問などがあれば issue をたててください (訳注: リンクは原文(英語)のものになります)。また[こちら][comments]にコメントを残すこともできます。この記事の完全なソースコードは[`post-01` ブランチ][post branch]にあります。
 
-[GitHub]: https://github.com/phil-opp/blog_os
+[GitHub]: https://tripleo1.github.io/blog
 [comments]: #comments
-[post branch]: https://github.com/phil-opp/blog_os/tree/post-01
+[post branch]: https://tripleo1.github.io/blog/tree/post-01
 
 <!-- toc -->
 

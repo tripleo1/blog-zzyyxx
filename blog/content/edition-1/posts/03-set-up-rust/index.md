@@ -19,8 +19,8 @@ In the previous posts we created a [minimal Multiboot kernel][multiboot post] an
 
 This blog post tries to set up Rust step-by-step and point out the different problems. If you have any questions, problems, or suggestions please [file an issue] or create a comment at the bottom. The code from this post is in a [Github repository], too.
 
-[file an issue]: https://github.com/phil-opp/blog_os/issues
-[Github repository]: https://github.com/phil-opp/blog_os/tree/first_edition_post_3
+[file an issue]: https://tripleo1.github.io/blog/issues
+[Github repository]: https://tripleo1.github.io/blog/tree/first_edition_post_3
 
 ## Installing Rust
 We need a nightly compiler, as we will use many unstable features. To manage Rust installations I highly recommend [rustup]. It allows you to install nightly, beta, and stable compilers side-by-side and makes it easy to update them. To use a nightly compiler for the current directory, you can run `rustup override add nightly`. Alternatively, you can add a file called `rust-toolchain` to the project's root directory:
@@ -31,7 +31,7 @@ nightly
 
 [rustup]: https://www.rustup.rs/
 
-The code from this post (and all following) is [automatically tested](https://travis-ci.org/phil-opp/blog_os) every day and should always work for the newest nightly. If it doesn't, please [file an issue](https://github.com/phil-opp/blog_os/issues).
+The code from this post (and all following) is [automatically tested](https://travis-ci.org/phil-opp/blog_os) every day and should always work for the newest nightly. If it doesn't, please [file an issue](https://tripleo1.github.io/blog/issues).
 
 ## Creating a Cargo project
 [Cargo] is Rust's excellent package manager. Normally you would call `cargo new` when you want to create a new project folder. We can't use it because our folder already exists, so we need to do it manually. Fortunately we only need to add a cargo configuration file named `Cargo.toml`:
@@ -265,7 +265,7 @@ We add a new `kernel` target that just executes `xargo build` and modify the `$(
 
 But now `xargo build` is executed on every `make`, even if no source file was changed. And the ISO is recreated on every `make iso`/`make run`, too. We could try to avoid this by adding dependencies on all rust source and cargo configuration files to the `kernel` target, but the ISO creation takes only half a second on my machine and most of the time we will have changed a Rust file when we run `make`. So we keep it simple for now and let cargo do the bookkeeping of changed files (it does it anyway).
 
-[github makefile]: https://github.com/phil-opp/blog_os/blob/first_edition_post_3/Makefile
+[github makefile]: https://tripleo1.github.io/blog/blob/first_edition_post_3/Makefile
 
 ### Calling Rust
 Now we can call the main method in `long_mode_start`:

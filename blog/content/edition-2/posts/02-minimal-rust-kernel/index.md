@@ -16,9 +16,9 @@ In this post we create a minimal 64-bit Rust kernel for the x86 architecture. We
 
 This blog is openly developed on [GitHub]. If you have any problems or questions, please open an issue there. You can also leave comments [at the bottom]. The complete source code for this post can be found in the [`post-02`][post branch] branch.
 
-[GitHub]: https://github.com/phil-opp/blog_os
+[GitHub]: https://tripleo1.github.io/blog
 [at the bottom]: #comments
-[post branch]: https://github.com/phil-opp/blog_os/tree/post-02
+[post branch]: https://tripleo1.github.io/blog/tree/post-02
 
 <!-- toc -->
 
@@ -33,7 +33,7 @@ On x86, there are two firmware standards: the “Basic Input/Output System“ (*
 [BIOS]: https://en.wikipedia.org/wiki/BIOS
 [UEFI]: https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface
 
-Currently, we only provide BIOS support, but support for UEFI is planned, too. If you'd like to help us with this, check out the [Github issue](https://github.com/phil-opp/blog_os/issues/349).
+Currently, we only provide BIOS support, but support for UEFI is planned, too. If you'd like to help us with this, check out the [Github issue](https://tripleo1.github.io/blog/issues/349).
 
 ### BIOS Boot
 Almost all x86 systems have support for BIOS booting, including newer UEFI-based machines that use an emulated BIOS. This is great, because you can use the same boot logic across all machines from the last centuries. But this wide compatibility is at the same time the biggest disadvantage of BIOS booting, because it means that the CPU is put into a 16-bit compatibility mode called [real mode] before booting so that archaic bootloaders from the 1980s would still work.
@@ -80,7 +80,7 @@ Because of these drawbacks we decided to not use GRUB or the Multiboot standard.
 
 ### UEFI
 
-(We don't provide UEFI support at the moment, but we would love to! If you'd like to help, please tell us in the [Github issue](https://github.com/phil-opp/blog_os/issues/349).)
+(We don't provide UEFI support at the moment, but we would love to! If you'd like to help, please tell us in the [Github issue](https://tripleo1.github.io/blog/issues/349).)
 
 ## A Minimal Kernel
 Now that we roughly know how a computer boots, it's time to create our own minimal kernel. Our goal is to create a disk image that prints a “Hello World!” to the screen when booted. For that we build upon the [freestanding Rust binary] from the previous post.

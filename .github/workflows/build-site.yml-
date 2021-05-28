@@ -108,7 +108,7 @@ jobs:
         git add .
         git commit --allow-empty -m "Deploy ${GITHUB_SHA}
 
-        Deploy of commit https://github.com/phil-opp/blog_os/commit/${GITHUB_SHA}"
+        Deploy of commit https://tripleo1.github.io/blog/commit/${GITHUB_SHA}"
       working-directory: "blog_os_deploy"
 
     - name: "Show Changes"

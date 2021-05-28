@@ -16,9 +16,9 @@ The first step in creating our own operating system kernel is to create a Rust e
 
 This blog is openly developed on [GitHub]. If you have any problems or questions, please open an issue there. You can also leave comments [at the bottom]. The complete source code for this post can be found in the [`post-01`][post branch] branch.
 
-[GitHub]: https://github.com/phil-opp/blog_os
+[GitHub]: https://tripleo1.github.io/blog
 [at the bottom]: #comments
-[post branch]: https://github.com/phil-opp/blog_os/tree/post-01
+[post branch]: https://tripleo1.github.io/blog/tree/post-01
 
 <!-- toc -->
 

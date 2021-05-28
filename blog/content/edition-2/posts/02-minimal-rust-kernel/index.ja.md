@@ -20,9 +20,9 @@ translators = ["woodyZootopia", "JohnTitor"]
 
 このブログの内容は [GitHub] 上で公開・開発されています。何か問題や質問などがあれば issue をたててください (訳注: リンクは原文(英語)のものになります)。また[こちら][at the bottom]にコメントを残すこともできます。この記事の完全なソースコードは[`post-02` ブランチ][post branch]にあります。
 
-[GitHub]: https://github.com/phil-opp/blog_os
+[GitHub]: https://tripleo1.github.io/blog
 [at the bottom]: #comments
-[post branch]: https://github.com/phil-opp/blog_os/tree/post-02
+[post branch]: https://tripleo1.github.io/blog/tree/post-02
 
 <!-- toc -->
 
@@ -37,7 +37,7 @@ x86には2つのファームウェアの標準規格があります："Basic Inp
 [BIOS]: https://ja.wikipedia.org/wiki/Basic_Input/Output_System
 [UEFI]: https://ja.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface
 
-今の所、このブログではBIOSしかサポートしていませんが、UEFIのサポートも計画中です。お手伝いいただける場合は、[GitHubのissue](https://github.com/phil-opp/blog_os/issues/349)をご覧ください。
+今の所、このブログではBIOSしかサポートしていませんが、UEFIのサポートも計画中です。お手伝いいただける場合は、[GitHubのissue](https://tripleo1.github.io/blog/issues/349)をご覧ください。
 
 ### BIOSの起動
 ほぼすべてのx86システムがBIOSによる起動をサポートしています。これは近年のUEFIベースのマシンも例外ではなく、それらはエミュレートされたBIOSを使います。前世紀のすべてのマシンにも同じブートロジックが使えるなんて素晴らしいですね。しかし、この広い互換性は、BIOSによる起動の最大の欠点でもあるのです。というのもこれは、1980年代の化石のようなブートローダーを動かすために、CPUが[<ruby>リアルモード<rp> (</rp><rt>real mode</rt><rp>) </rp></ruby>][real mode]と呼ばれる16bit互換モードにされてしまうということを意味しているからです。
@@ -84,7 +84,7 @@ x86には2つのファームウェアの標準規格があります："Basic Inp
 
 ### UEFI
 
-（今の所UEFIのサポートは提供していませんが、ぜひともしたいと思っています！お手伝いいただける場合は、 [GitHub issue](https://github.com/phil-opp/blog_os/issues/349)で教えてください。）
+（今の所UEFIのサポートは提供していませんが、ぜひともしたいと思っています！お手伝いいただける場合は、 [GitHub issue](https://tripleo1.github.io/blog/issues/349)で教えてください。）
 
 ## 最小のカーネル
 どのようにコンピュータが起動するのかについてざっくりと理解できたので、自前で最小のカーネルを書いてみましょう。目標は、起動したら画面に"Hello, World!"と出力するようなディスクイメージを作ることです。というわけで、前の記事の[<ruby>独立した<rp> (</rp><rt>freestanding</rt><rp>) </rp></ruby>Rustバイナリ][freestanding Rust binary]をもとにして作っていきます。

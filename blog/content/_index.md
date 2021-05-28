@@ -6,7 +6,7 @@ template = "edition-2/index.html"
 
 <div class="front-page-introduction">
 
-This blog series creates a small operating system in the [Rust programming language](https://www.rust-lang.org/). Each post is a small tutorial and includes all needed code, so you can follow along if you like. The source code is also available in the corresponding [Github repository](https://github.com/phil-opp/blog_os).
+This blog series creates a small operating system in the [Rust programming language](https://www.rust-lang.org/). Each post is a small tutorial and includes all needed code, so you can follow along if you like. The source code is also available in the corresponding [Github repository](https://tripleo1.github.io/blog).
 
 Latest post: <!-- latest-post -->
 

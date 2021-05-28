@@ -15,8 +15,8 @@ In this post, we start exploring CPU exceptions. Exceptions occur in various err
 
 As always, the complete source code is available on [GitHub]. Please file [issues] for any problems, questions, or improvement suggestions. There is also a comment section at the end of this page.
 
-[GitHub]: https://github.com/phil-opp/blog_os/tree/first_edition_post_9
-[issues]: https://github.com/phil-opp/blog_os/issues
+[GitHub]: https://tripleo1.github.io/blog/tree/first_edition_post_9
+[issues]: https://tripleo1.github.io/blog/issues
 
 ## Exceptions
 An exception signals that something is wrong with the current instruction. For example, the CPU issues an exception if the current instruction tries to divide by 0. When an exception occurs, the CPU interrupts its current work and immediately calls a specific exception handler function, depending on the exception type.

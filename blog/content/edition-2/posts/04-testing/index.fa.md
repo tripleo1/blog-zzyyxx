@@ -19,9 +19,9 @@ rtl = true
 
 این بلاگ بصورت آزاد روی [گیت‌هاب] توسعه داده شده است. اگر شما مشکل یا سوالی دارید، لطفاً آن‌جا یک ایشو باز کنید. شما همچنین می‌توانید [در زیر] این پست کامنت بگذارید. منبع کد کامل این پست را می‌توانید در بِرَنچ [`post-04`][post branch] پیدا کنید.
 
-[گیت‌هاب]: https://github.com/phil-opp/blog_os
+[گیت‌هاب]: https://tripleo1.github.io/blog
 [در زیر]: #comments
-[post branch]: https://github.com/phil-opp/blog_os/tree/post-04
+[post branch]: https://tripleo1.github.io/blog/tree/post-04
 
 <!-- toc -->
 

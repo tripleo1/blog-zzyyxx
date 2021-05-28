@@ -15,15 +15,15 @@ As mentioned in the _Async/Await_ post, I'm currently looking for job in Karlsru
 
 The repository of the _Writing an OS in Rust_ blog received the following updates:
 
-- [Update linked_list_allocator to v0.8.0](https://github.com/phil-opp/blog_os/pull/763)
-- [Update x86_64 dependency to version 0.9.6](https://github.com/phil-opp/blog_os/pull/764)
-- [New post about Async/Await](https://github.com/phil-opp/blog_os/pull/767)
-- [Discuss the approach of storing offsets for self-referential structs](https://github.com/phil-opp/blog_os/pull/774)
-- [Use a static counter for assigning task IDs](https://github.com/phil-opp/blog_os/pull/782)
+- [Update linked_list_allocator to v0.8.0](https://tripleo1.github.io/blog/pull/763)
+- [Update x86_64 dependency to version 0.9.6](https://tripleo1.github.io/blog/pull/764)
+- [New post about Async/Await](https://tripleo1.github.io/blog/pull/767)
+- [Discuss the approach of storing offsets for self-referential structs](https://tripleo1.github.io/blog/pull/774)
+- [Use a static counter for assigning task IDs](https://tripleo1.github.io/blog/pull/782)
 
 In addition to the changes above, there were a lot of [typo fixes] by external contributors. Thanks a lot!
 
-[typo fixes]: https://github.com/phil-opp/blog_os/pulls?q=is%3Apr+is%3Aclosed+created%3A2020-03-01..2020-04-02+-author%3Aphil-opp+
+[typo fixes]: https://tripleo1.github.io/blog/pulls?q=is%3Apr+is%3Aclosed+created%3A2020-03-01..2020-04-02+-author%3Aphil-opp+
 
 ## `x86_64`
 

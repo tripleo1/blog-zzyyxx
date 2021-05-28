@@ -13,8 +13,8 @@ In this post we explore double faults in detail. We also set up an _Interrupt St
 
 As always, the complete source code is available on [GitHub]. Please file [issues] for any problems, questions, or improvement suggestions. There is also a [gitter chat] and a comment section at the end of this page.
 
-[GitHub]: https://github.com/phil-opp/blog_os/tree/first_edition_post_10
-[issues]: https://github.com/phil-opp/blog_os/issues
+[GitHub]: https://tripleo1.github.io/blog/tree/first_edition_post_10
+[issues]: https://tripleo1.github.io/blog/issues
 [gitter chat]: https://gitter.im/phil-opp/blog_os
 
 ## What is a Double Fault?
