@@ -260,7 +260,7 @@ However, it also has some disadvantages:
 - It only allows accessing the currently active address space easily. Accessing other address spaces is still possible by changing the recursive entry, but a temporary mapping is required for switching back. We described how to do this in the (outdated) [_Remap The Kernel_] post.
 - It heavily relies on the page table format of x86 and might not work on other architectures.
 
-[_Remap The Kernel_]: https://os.phil-opp.com/remap-the-kernel/#overview
+[_Remap The Kernel_]: https://tripleo1.github.io/blog/remap-the-kernel/#overview
 
 ## Bootloader Support
 

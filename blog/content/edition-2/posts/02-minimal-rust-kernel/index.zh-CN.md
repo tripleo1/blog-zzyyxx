@@ -351,7 +351,7 @@ cargo install bootimage
 > qemu-system-x86_64 -drive format=raw,file=bootimage-blog_os.bin
 ```
 
-![](https://os.phil-opp.com/minimal-rust-kernel/qemu.png)
+![](https://tripleo1.github.io/blog/minimal-rust-kernel/qemu.png)
 
 我们可以看到，屏幕窗口已经显示出 “Hello World!” 字符串。祝贺你！
 

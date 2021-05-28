@@ -257,7 +257,7 @@ pub extern "C" fn _start() -> ! {
 
 编译运行后，黄色的 `Hello W■■rld!` 字符串将会被打印在屏幕的左下角：
 
-![QEMU output with a yellow Hello W■■rld! in the lower left corner](https://os.phil-opp.com/vga-text-mode/vga-hello.png)
+![QEMU output with a yellow Hello W■■rld! in the lower left corner](https://tripleo1.github.io/blog/vga-text-mode/vga-hello.png)
 
 需要注意的是，`ö` 字符被打印为两个 `■` 字符。这是因为在 [UTF-8](https://www.fileformat.info/info/unicode/utf8.htm) 编码下，字符 `ö` 是由两个字节表述的——而这两个字节并不处在可打印的 ASCII 码字节范围之内。事实上，这是 UTF-8 编码的基本特点之一：**如果一个字符占用多个字节，那么每个组成它的独立字节都不是有效的 ASCII 码字节**（the individual bytes of multi-byte values are never valid ASCII）。
 
@@ -612,7 +612,7 @@ pub extern "C" fn _start() {
 
 运行这段代码，和我们预料的一样，一个 *“Hello World!”* 字符串被打印到了屏幕上：
 
-![QEMU printing “Hello World!”](https://os.phil-opp.com/vga-text-mode/vga-hello-world.png)
+![QEMU printing “Hello World!”](https://tripleo1.github.io/blog/vga-text-mode/vga-hello-world.png)
 
 ### 打印 panic 信息
 
@@ -631,7 +631,7 @@ fn panic(info: &PanicInfo) -> ! {
 
 当我们在 `_start` 函数中插入一行 `panic!("Some panic message");` 后，我们得到了这样的输出：
 
-![QEMU printing “panicked at 'Some panic message', src/main.rs:28:5](https://os.phil-opp.com/vga-text-mode/vga-panic.png)
+![QEMU printing “panicked at 'Some panic message', src/main.rs:28:5](https://tripleo1.github.io/blog/vga-text-mode/vga-panic.png)
 
 所以，现在我们不仅能知道 panic 已经发生，还能够知道 panic 信息和产生 panic 的代码。
 

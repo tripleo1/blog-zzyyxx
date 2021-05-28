@@ -127,7 +127,7 @@ fn trivial_assertion() {
 
 现在，当我们运行 `cargo xtest`时，我们可以看到如下输出:
 
-![QEMU printing "Hello World!", "Running 1 tests", and "trivial assertion... [ok]"](https://os.phil-opp.com/testing/qemu-test-runner-output.png)
+![QEMU printing "Hello World!", "Running 1 tests", and "trivial assertion... [ok]"](https://tripleo1.github.io/blog/testing/qemu-test-runner-output.png)
 
 传递给 `test_runner`函数的`tests`切片里包含了一个 `trivial_assertion` 函数的引用，从屏幕上输出的 `trivial assertion... [ok]`信息可见，我们的测试已被调用并且顺利通过。
 
@@ -394,7 +394,7 @@ trivial assertion... [ok]
 然而，当测试失败时，我们仍然会在QEMU内看到输出结果，因为我们的panic handler还是用了`println`。为了模拟这个过程，我们将我们的 `trivial_assertion` test中的断言(assertion)修改为 `assert_eq!(0, 1)`:
 
 ![QEMU printing "Hello World!" and "panicked at 'assertion failed: `(left == right)`
-    left: `0`, right: `1`', src/main.rs:55:5](https://os.phil-opp.com/testing/qemu-failed-test.png)
+    left: `0`, right: `1`', src/main.rs:55:5](https://tripleo1.github.io/blog/testing/qemu-failed-test.png)
 
 可以看到，panic信息被打印到了VGA缓冲区里，而测试输出则被打印到串口上了。panic信息非常有用，所以我们希望能够在控制台中来查看它。
 

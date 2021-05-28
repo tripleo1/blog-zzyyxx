@@ -1,6 +1,6 @@
 # Blog OS
 
-This repository contains the source code for the _Writing an OS in Rust_ series at [os.phil-opp.com](https://os.phil-opp.com).
+This repository contains the source code for the _Writing an OS in Rust_ series at [tripleo1.github.io/blog](https://tripleo1.github.io/blog).
 
 If you have questions, open an issue or chat with us [on Gitter](https://gitter.im/phil-opp/blog_os).
 
@@ -30,38 +30,38 @@ The goal of this project is to provide step-by-step tutorials in individual blog
 
 **Bare Bones:**
 
-- [A Freestanding Rust Binary](https://os.phil-opp.com/freestanding-rust-binary/)
+- [A Freestanding Rust Binary](https://tripleo1.github.io/blog/freestanding-rust-binary/)
     ([source code](https://github.com/phil-opp/blog_os/tree/post-01))
-- [A Minimal Rust Kernel](https://os.phil-opp.com/minimal-rust-kernel/)
+- [A Minimal Rust Kernel](https://tripleo1.github.io/blog/minimal-rust-kernel/)
     ([source code](https://github.com/phil-opp/blog_os/tree/post-02))
-- [VGA Text Mode](https://os.phil-opp.com/vga-text-mode/)
+- [VGA Text Mode](https://tripleo1.github.io/blog/vga-text-mode/)
     ([source code](https://github.com/phil-opp/blog_os/tree/post-03))
-- [Testing](https://os.phil-opp.com/testing/)
+- [Testing](https://tripleo1.github.io/blog/testing/)
     ([source code](https://github.com/phil-opp/blog_os/tree/post-04))
 
 **Interrupts:**
 
-- [CPU Exceptions](https://os.phil-opp.com/cpu-exceptions/)
+- [CPU Exceptions](https://tripleo1.github.io/blog/cpu-exceptions/)
     ([source code](https://github.com/phil-opp/blog_os/tree/post-05))
-- [Double Faults](https://os.phil-opp.com/double-fault-exceptions/)
+- [Double Faults](https://tripleo1.github.io/blog/double-fault-exceptions/)
     ([source code](https://github.com/phil-opp/blog_os/tree/post-06))
-- [Hardware Interrupts](https://os.phil-opp.com/hardware-interrupts/)
+- [Hardware Interrupts](https://tripleo1.github.io/blog/hardware-interrupts/)
     ([source code](https://github.com/phil-opp/blog_os/tree/post-07))
 
 **Memory Management:**
 
-- [Introduction to Paging](https://os.phil-opp.com/paging-introduction/)
+- [Introduction to Paging](https://tripleo1.github.io/blog/paging-introduction/)
     ([source code](https://github.com/phil-opp/blog_os/tree/post-08))
-- [Paging Implementation](https://os.phil-opp.com/paging-implementation/)
+- [Paging Implementation](https://tripleo1.github.io/blog/paging-implementation/)
     ([source code](https://github.com/phil-opp/blog_os/tree/post-09))
-- [Heap Allocation](https://os.phil-opp.com/heap-allocation/)
+- [Heap Allocation](https://tripleo1.github.io/blog/heap-allocation/)
     ([source code](https://github.com/phil-opp/blog_os/tree/post-10))
-- [Allocator Designs](https://os.phil-opp.com/allocator-designs/)
+- [Allocator Designs](https://tripleo1.github.io/blog/allocator-designs/)
     ([source code](https://github.com/phil-opp/blog_os/tree/post-11))
 
 **Multitasking**:
 
-- [Async/Await](https://os.phil-opp.com/async-await/)
+- [Async/Await](https://tripleo1.github.io/blog/async-await/)
     ([source code](https://github.com/phil-opp/blog_os/tree/post-12))
 
 ## First Edition Posts
@@ -72,44 +72,44 @@ The current version of the blog is already the second edition. The first edition
 
 **Bare Bones:**
 
-- [A Minimal x86 Kernel](https://os.phil-opp.com/multiboot-kernel.html)
+- [A Minimal x86 Kernel](https://tripleo1.github.io/blog/multiboot-kernel.html)
       ([source code](https://github.com/phil-opp/blog_os/tree/first_edition_post_1))
-- [Entering Long Mode](https://os.phil-opp.com/entering-longmode.html)
+- [Entering Long Mode](https://tripleo1.github.io/blog/entering-longmode.html)
       ([source code](https://github.com/phil-opp/blog_os/tree/first_edition_post_2))
-- [Set Up Rust](https://os.phil-opp.com/set-up-rust.html)
+- [Set Up Rust](https://tripleo1.github.io/blog/set-up-rust.html)
       ([source code](https://github.com/phil-opp/blog_os/tree/first_edition_post_3))
-- [Printing to Screen](https://os.phil-opp.com/printing-to-screen.html)
+- [Printing to Screen](https://tripleo1.github.io/blog/printing-to-screen.html)
       ([source code](https://github.com/phil-opp/blog_os/tree/first_edition_post_4))
 
 **Memory Management:**
 
-- [Allocating Frames](https://os.phil-opp.com/allocating-frames.html)
+- [Allocating Frames](https://tripleo1.github.io/blog/allocating-frames.html)
       ([source code](https://github.com/phil-opp/blog_os/tree/first_edition_post_5))
-- [Page Tables](https://os.phil-opp.com/modifying-page-tables.html)
+- [Page Tables](https://tripleo1.github.io/blog/modifying-page-tables.html)
       ([source code](https://github.com/phil-opp/blog_os/tree/first_edition_post_6))
-- [Remap the Kernel](https://os.phil-opp.com/remap-the-kernel.html)
+- [Remap the Kernel](https://tripleo1.github.io/blog/remap-the-kernel.html)
       ([source code](https://github.com/phil-opp/blog_os/tree/first_edition_post_7))
-- [Kernel Heap](https://os.phil-opp.com/kernel-heap.html)
+- [Kernel Heap](https://tripleo1.github.io/blog/kernel-heap.html)
       ([source code](https://github.com/phil-opp/blog_os/tree/first_edition_post_8))
 
 **Exceptions:**
 
-- [Handling Exceptions](https://os.phil-opp.com/handling-exceptions.html)
+- [Handling Exceptions](https://tripleo1.github.io/blog/handling-exceptions.html)
       ([source code](https://github.com/phil-opp/blog_os/tree/first_edition_post_9))
-- [Double Faults](https://os.phil-opp.com/double-faults.html)
+- [Double Faults](https://tripleo1.github.io/blog/double-faults.html)
       ([source code](https://github.com/phil-opp/blog_os/tree/first_edition_post_10))
 
 **Additional Resources:**
 
-- [Cross Compile Binutils](https://os.phil-opp.com/cross-compile-binutils.html)
-- [Cross Compile libcore](https://os.phil-opp.com/cross-compile-libcore.html)
-- [Set Up GDB](https://os.phil-opp.com/set-up-gdb)
-- [Handling Exceptions using Naked Functions](https://os.phil-opp.com/handling-exceptions-with-naked-fns.html)
-    - [Catching Exceptions](https://os.phil-opp.com/catching-exceptions.html)
+- [Cross Compile Binutils](https://tripleo1.github.io/blog/cross-compile-binutils.html)
+- [Cross Compile libcore](https://tripleo1.github.io/blog/cross-compile-libcore.html)
+- [Set Up GDB](https://tripleo1.github.io/blog/set-up-gdb)
+- [Handling Exceptions using Naked Functions](https://tripleo1.github.io/blog/handling-exceptions-with-naked-fns.html)
+    - [Catching Exceptions](https://tripleo1.github.io/blog/catching-exceptions.html)
           ([source code](https://github.com/phil-opp/blog_os/tree/catching_exceptions))
-    - [Better Exception Messages](https://os.phil-opp.com/better-exception-messages.html)
+    - [Better Exception Messages](https://tripleo1.github.io/blog/better-exception-messages.html)
           ([source code](https://github.com/phil-opp/blog_os/tree/better_exception_messages))
-    - [Returning from Exceptions](https://os.phil-opp.com/returning-from-exceptions.html)
+    - [Returning from Exceptions](https://tripleo1.github.io/blog/returning-from-exceptions.html)
           ([source code](https://github.com/phil-opp/blog_os/tree/returning_from_exceptions))
 
 </details>
