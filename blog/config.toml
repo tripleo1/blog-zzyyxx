@@ -30,8 +30,8 @@ skip_anchor_prefixes = [
 ]
 
 [extra]
-subtitle = "Philipp Oppermann's blog"
-author = { name = "Philipp Oppermann" }
+subtitle = "Tripleo's blog"
+author = { name = "Tripleo" }
 
 [translations.en]
 lang_name = "English"

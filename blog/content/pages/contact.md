@@ -4,7 +4,7 @@ path = "contact"
 template = "plain.html"
 +++
 
-Philipp Oppermann
+Tripleo
 
 <big>contact@phil-opp.com</big>
 

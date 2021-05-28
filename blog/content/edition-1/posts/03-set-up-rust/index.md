@@ -42,7 +42,7 @@ The code from this post (and all following) is [automatically tested](https://tr
 [package]
 name = "blog_os"
 version = "0.1.0"
-authors = ["Philipp Oppermann <dev@phil-opp.com>"]
+authors = ["Tripleo <dev@phil-opp.com>"]
 
 [lib]
 crate-type = ["staticlib"]
