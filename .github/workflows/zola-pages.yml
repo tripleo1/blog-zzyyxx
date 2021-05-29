@@ -13,8 +13,9 @@ jobs:
         BUILD_DIR: blog
         BUILD_FLAGS: --drafts
         TOKEN: ${{ secrets.TOKEN }}
+
     - name: 'Delete done'
-      run: rm -rf blog
+      run: sudo rm -rf blog
        
     - uses: actions/checkout@v1
       with:
