@@ -27,7 +27,7 @@ jobs:
       run: |
         ./rg -thtml 'href="/' --replace 'href="/blog/'
         ./rg -thtml 'src="/' --replace 'src="/blog/'
-        
+
 #      working-directory: "blog"
 
     - run: |
@@ -35,5 +35,5 @@ jobs:
         git config user.name search-and-replace
         git config user.email github-actions@search-and-replace.com
         git add .
-        git commit -m "Search and replaced ${{ GITHUB_SHA }}"
+        git commit -m "Search and replaced"
         git push
