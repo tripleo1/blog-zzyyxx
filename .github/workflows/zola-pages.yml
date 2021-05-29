@@ -13,3 +13,23 @@ jobs:
         BUILD_DIR: blog
         BUILD_FLAGS: --drafts
         TOKEN: ${{ secrets.TOKEN }}
+       
+    - uses: actions/checkout@v1
+      with:
+        ref: gh_pages
+
+    - name: 'Download Ripgrep'
+      run: curl -sL https://github.com/BurntSushi/ripgrep/releases/download/12.1.1/ripgrep-12.1.1-x86_64-unknown-linux-musl.tar.gz  | tar zxv
+      run: mv ripgrep-12.1.1-x86_64-unknown-linux-musl/rg .
+    - name: 'Search and Replace'
+      run: ./rg -thtml 'href="/' --replace 'href="/blog/'
+      run: ./rg -thtml 'src="/' --replace 'src="/blog/'
+#      working-directory: "blog"
+
+    - run: |
+        date > generated.txt
+        git config user.name search-and-replace
+        git config user.email github-actions@search-and-replace.com
+        git add .
+        git commit -m "Search and replaced ${{ GITHUB_SHA }}"
+        git push
