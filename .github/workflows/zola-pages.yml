@@ -21,17 +21,25 @@ jobs:
       with:
         ref: gh-pages
 
-    - name: 'Download Ripgrep'
-      run: |
-        curl -sL https://github.com/BurntSushi/ripgrep/releases/download/12.1.1/ripgrep-12.1.1-x86_64-unknown-linux-musl.tar.gz  | tar zxv
-        mv ripgrep-12.1.1-x86_64-unknown-linux-musl/rg .
+#    - name: 'Download Ripgrep'
+#      run: |
+#        curl -sL https://github.com/BurntSushi/ripgrep/releases/download/12.1.1/ripgrep-12.1.1-x86_64-unknown-linux-musl.tar.gz  | tar zxv
+#        mv ripgrep-12.1.1-x86_64-unknown-linux-musl/rg .
+
+    - name: 'Download fart-it'
+      run: | 
+        curl -sL https://github.com/tripleo1/fart-it/releases/download/2021-May-29/fart
 
     - name: 'Search and Replace'
       run: |
-        bash -c "for each in `find | grep html$`; do \
-        ./rg --passthru 'href="/' --replace 'href="/blog/' $each > LL.txt \
-        ./rg --passthru 'src="/' --replace 'src="/blog/' LL.txt > LLL.txt \
-        mv LLL.txt $each ; done"
+        ./fart-it/fart -r \*.html href=\"/ href=\"/blog/
+        ./fart-it/fart -r \*.html src=\"/ src=\"/blog/
+
+ 
+#       bash -c "for each in `find | grep html$`; do \
+#       ./rg --passthru 'href="/' --replace 'href="/blog/' $each > LL.txt \
+#       ./rg --passthru 'src="/' --replace 'src="/blog/' LL.txt > LLL.txt \
+#       mv LLL.txt $each ; done"
 
 #      working-directory: "blog"
 
@@ -40,5 +48,5 @@ jobs:
         git config user.name search-and-replace
         git config user.email github-actions@search-and-replace.com
         git add .
-        git commit -m "Search and replaced"
+        git commit -m "Search and replaced ${GITHUB_SHA}"
         git push
