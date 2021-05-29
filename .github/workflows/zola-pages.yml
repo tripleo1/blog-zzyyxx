@@ -19,7 +19,7 @@ jobs:
        
     - uses: actions/checkout@v1
       with:
-        ref: gh_pages
+        ref: gh-pages
 
     - name: 'Download Ripgrep'
       run: |
