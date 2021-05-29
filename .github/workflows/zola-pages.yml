@@ -28,7 +28,8 @@ jobs:
 
     - name: 'Download fart-it'
       run: | 
-        curl -sL https://github.com/tripleo1/fart-it/releases/download/2021-May-29/fart
+        curl -sL https://github.com/tripleo1/fart-it/releases/download/2021-May-29/fart > fart
+        chmod +x ./fart
 
     - name: 'Search and Replace'
       run: |
