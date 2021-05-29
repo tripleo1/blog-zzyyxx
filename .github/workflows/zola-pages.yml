@@ -19,11 +19,15 @@ jobs:
         ref: gh_pages
 
     - name: 'Download Ripgrep'
-      run: curl -sL https://github.com/BurntSushi/ripgrep/releases/download/12.1.1/ripgrep-12.1.1-x86_64-unknown-linux-musl.tar.gz  | tar zxv
-      run: mv ripgrep-12.1.1-x86_64-unknown-linux-musl/rg .
+      run: |
+        curl -sL https://github.com/BurntSushi/ripgrep/releases/download/12.1.1/ripgrep-12.1.1-x86_64-unknown-linux-musl.tar.gz  | tar zxv
+        mv ripgrep-12.1.1-x86_64-unknown-linux-musl/rg .
+
     - name: 'Search and Replace'
-      run: ./rg -thtml 'href="/' --replace 'href="/blog/'
-      run: ./rg -thtml 'src="/' --replace 'src="/blog/'
+      run: |
+        ./rg -thtml 'href="/' --replace 'href="/blog/'
+        ./rg -thtml 'src="/' --replace 'src="/blog/'
+        
 #      working-directory: "blog"
 
     - run: |
