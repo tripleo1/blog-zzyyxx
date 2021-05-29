@@ -32,8 +32,8 @@ jobs:
 
     - name: 'Search and Replace'
       run: |
-        ./fart-it/fart -r \*.html href=\"/ href=\"/blog/
-        ./fart-it/fart -r \*.html src=\"/ src=\"/blog/
+        ./fart -r \*.html href=\"/ href=\"/blog/
+        ./fart -r \*.html src=\"/ src=\"/blog/
 
  
 #       bash -c "for each in `find | grep html$`; do \
