@@ -28,8 +28,10 @@ jobs:
 
     - name: 'Search and Replace'
       run: |
-        ./rg -thtml 'href="/' --replace 'href="/blog/'
-        ./rg -thtml 'src="/' --replace 'src="/blog/'
+        for each in `find | grep html$`; do \
+        ./rg --passthru 'href="/' --replace 'href="/blog/' $each > LL.txt \
+        ./rg --passthru 'src="/' --replace 'src="/blog/' LL.txt > LLL.txt \
+        mv LLL.txt $each ; done
 
 #      working-directory: "blog"
 
