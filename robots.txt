@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tripleo1.github.io/blog/sitemap.xml
