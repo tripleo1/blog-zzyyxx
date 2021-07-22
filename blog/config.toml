@@ -7,12 +7,20 @@ highlight_theme = "visual-studio-dark"
 generate_feed = true
 feed_filename = "rss.xml"
 
-languages = [
-    { code = "zh-CN" }, # Chinese (simplified)
-    { code = "zh-TW" }, # Chinese (traditional)
-    { code = "ja" }, # Japanese
-    { code = "fa" }, # Persian
-]
+[languages.ja] # Japanese
+generate_feed = true
+
+[languages.fa] # Persian
+build_search_index = true
+generate_feed = true
+
+[languages.zh-TW] # Chinese (traditional)
+build_search_index = true
+generate_feed = true
+
+[languages.zh-CN] # Chinese (simplified)
+build_search_index = true
+generate_feed = true
 
 ignored_content = ["*/README.md"]
 
